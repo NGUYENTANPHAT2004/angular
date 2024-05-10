@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  template: '<app-menu></app-menu>',
+  styleUrls: ['./app.component.css'] // sử dụng styleUrls thay vì styleUrl
 })
 export class AppComponent {
   title = 'angular';

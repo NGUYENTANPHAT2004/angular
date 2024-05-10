@@ -1,0 +1,24 @@
+/* menu.component.css */
+
+.menu {
+  background-color: #333; /* Màu nền của thanh menu */
+  overflow: hidden; /* Loại bỏ nội dung vượt ra ngoài khi menu quá rộng */
+}
+
+.menu a {
+  float: left; /* Các phần tử menu sẽ nằm cạnh nhau */
+  display: block; /* Biến các phần tử menu thành phần block để chúng có thể có kích thước và định dạng */
+  color: white; /* Màu chữ của các phần tử menu */
+  text-align: center; /* Canh chỉnh chữ giữa các phần tử menu */
+  padding: 14px 16px; /* Khoảng cách giữa các phần tử menu */
+  text-decoration: none; /* Loại bỏ gạch chân cho liên kết */
+}
+
+.menu a:hover {
+  background-color: #ddd; /* Màu nền của phần tử menu khi di chuột qua */
+  color: black; /* Màu chữ của phần tử menu khi di chuột qua */
+}
+
+.active {
+  background-color: #4CAF50; /* Màu nền của phần tử menu hiện tại */
+}
